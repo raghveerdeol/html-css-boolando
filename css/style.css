@@ -38,6 +38,7 @@ main>section{
 section>article{
     background-color: #e9ebe8;
     width: calc((100% / 3) - 2rem);
+    position: relative;
 }
 section > article > img{
     width: 100%;
@@ -47,4 +48,21 @@ section > article > img{
 footer{
     background-color: #1a1a1a;
     color: white;
+}
+.discount{
+    background-color: red;
+    position: absolute;
+    bottom: 2rem;
+    left: 0rem;
+}
+.preferiti{
+    background-color: white;
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+    padding: 1rem;
+}
+.sostenibilità{
+    background-color: green;
+    position: absolute;
 }
