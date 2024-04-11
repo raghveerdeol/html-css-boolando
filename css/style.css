@@ -7,6 +7,10 @@
 .display-flex{
     display: flex;
 }
+.column{
+    display: flex;
+    flex-direction: column;
+}
 .space-around{
     justify-content: space-around;
 }
@@ -15,7 +19,8 @@ header{
     padding: 1rem;
 }
 nav > img{
-    width: 9%;
+    width: 10%;
+    object-fit: contain;
 }
 ul{
     list-style: none;
@@ -36,7 +41,6 @@ main>section{
     margin-bottom: 1rem;
 }
 section>article{
-    background-color: #e9ebe8;
     width: calc((100% / 3) - 2rem);
     position: relative;
 }
@@ -45,6 +49,9 @@ section > article > img{
     height: 100%;
     object-fit: cover;
 }
+article > div > span{
+    color: red;
+}
 footer{
     background-color: #1a1a1a;
     color: white;
@@ -52,7 +59,7 @@ footer{
 .discount{
     background-color: red;
     position: absolute;
-    bottom: 2rem;
+    bottom: 6rem;
     left: 0rem;
 }
 .preferiti{
@@ -65,4 +72,7 @@ footer{
 .sostenibilità{
     background-color: green;
     position: absolute;
+}
+.small-text{
+    font-size: 60%;
 }
