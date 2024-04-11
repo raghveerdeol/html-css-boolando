@@ -76,3 +76,24 @@ footer{
 .small-text{
     font-size: 60%;
 }
+.img1:hover > img{
+    content: url(../img/1b.webp);
+}
+.img2:hover > img{
+    content: url(../img/2b.webp);
+}
+.img3:hover > img{
+    content: url(../img/3b.webp);
+}
+.img4:hover > img{
+    content: url(../img/4b.webp);
+}
+.img5:hover > img{
+    content: url(../img/5b.webp);
+}
+.img6:hover > img{
+    content: url(../img/6b.webp);
+}
+.preferiti:hover{
+    color: red;
+}
