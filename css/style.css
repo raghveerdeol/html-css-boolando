@@ -16,7 +16,10 @@
 }
 header{
     background-color: #ff6900;
-    padding: 1rem;
+    padding: 1% 9%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 nav > img{
     width: 10%;
@@ -35,7 +38,7 @@ a{
 main{
     width: 80%;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 8rem;
 }
 main>section{
     margin-bottom: 1rem;
@@ -55,6 +58,10 @@ article > div > span{
 footer{
     background-color: #1a1a1a;
     color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1% 4%;
 }
 .discount{
     background-color: red;
@@ -67,7 +74,8 @@ footer{
     position: absolute;
     top: 2rem;
     right: 0rem;
-    padding: 1rem;
+    padding: 0.5rem;
+    font-size: 2rem;
 }
 .sostenibilità{
     background-color: green;
