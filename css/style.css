@@ -68,7 +68,6 @@ footer{
     background-color: red;
     color: white;
     margin-right: 0.7rem;
-    padding: 4px;
 }
 .disc-sost{
     position: absolute;
@@ -87,7 +86,6 @@ footer{
     background-color: green;
     position: absolute;
     color: white;
-    padding: 4px;
 }
 .small-text{
     font-size: 60%;
